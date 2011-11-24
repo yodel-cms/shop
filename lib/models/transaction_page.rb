@@ -37,7 +37,7 @@ class TransactionPage < Page
           username: 'Q14555',
           password: 'Au5xh8v8g',
           merchant: '23891864',
-          pem: File.join(File.dirname(__FILE__), '..', 'ccapi.pem'),
+          pem: File.join(site.root_directory, 'ccapi.pem'),
           eci: 'SSL'
         )
         
