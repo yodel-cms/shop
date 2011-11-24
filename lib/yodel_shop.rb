@@ -1,0 +1,3 @@
+module YodelShop
+  VERSION = '0.0.1'
+end
